@@ -84,7 +84,7 @@ console.log("");
 console.log("Task 2\n\n");
 
 for (const element of hogwarts) {
-      if (element.pet)
+      if (element.occupation === "Teacher" && element.pet)
       {
               let {firstName, lastName} = element;
                console.log(`${firstName} ${lastName}`)
