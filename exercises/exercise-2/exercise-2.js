@@ -70,3 +70,23 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+// Exercise 2 ## Task 1
+console.log("Task 1\n\n");
+for (let {firstName, lastName, house} of hogwarts) {
+     if (house === "Gryffindor")
+          console.log(`${firstName} ${lastName}`);
+}; 
+
+console.log("");
+
+// Exercise 2 ## Task 2
+console.log("Task 2\n\n");
+
+for (const element of hogwarts) {
+      if (element.pet)
+      {
+              let {firstName, lastName} = element;
+               console.log(`${firstName} ${lastName}`)
+      }
+};
